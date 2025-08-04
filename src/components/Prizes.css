@@ -1,0 +1,136 @@
+.prizes {
+  padding: 100px 0;
+  background: white;
+}
+
+.prizes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.prize-card {
+  background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+  padding: 2.5rem;
+  border-radius: 16px;
+  text-align: center;
+  position: relative;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.prize-card:first-child {
+  background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+  color: #2d3748;
+  transform: scale(1.05);
+  border-color: #ffd700;
+}
+
+.prize-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.prize-card:first-child:hover {
+  transform: translateY(-5px) scale(1.08);
+}
+
+.prize-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.prize-card h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #2d3748;
+}
+
+.prize-amount {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #667eea;
+  margin-bottom: 1.5rem;
+}
+
+.prize-card:first-child .prize-amount {
+  color: #2d3748;
+}
+
+.prize-benefits {
+  list-style: none;
+  padding: 0;
+}
+
+.prize-benefits li {
+  padding: 0.5rem 0;
+  color: #4a5568;
+  font-weight: 500;
+}
+
+.prize-benefits li::before {
+  content: "✓";
+  color: #48bb78;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.special-prizes {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.special-prizes h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 2rem;
+}
+
+.special-prizes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.special-prize {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.special-prize h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.special-prize span {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.total-prize {
+  text-align: center;
+  background: #f7fafc;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.total-prize h3 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #2d3748;
+  margin-bottom: 1rem;
+}
+
+.total-prize p {
+  font-size: 1.1rem;
+  color: #718096;
+}

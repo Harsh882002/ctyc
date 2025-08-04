@@ -1,0 +1,144 @@
+🎨 Event Title: "EduToys: Innovation Through Play"
+Theme: Design and Make Educational Toys
+
+Create a toy that helps in learning or understanding a concept (e.g., science, math, language, environment, history, etc.).
+
+🧠 Objective
+To encourage creativity and innovation by designing toys that serve an educational purpose—helping children or students learn through play.
+
+📝 General Guidelines
+- Participants can be individuals or teams (Max 4 members per team).
+- Toys must be safe, non-toxic, and suitable for the age group they are designed for.
+- Theme must be educational – Examples:
+  • Math puzzle board
+  • Solar system model with movable parts
+  • Language learning flash toy
+  • Historical timeline game
+  • Environmental awareness board game
+- Toys can be:
+  • Manual (no electronics)
+  • Or Simple tech-enabled  
+- Use of recycled materials is encouraged 
+
+🧩 Rules
+- Originality: Toy must be your own idea or a unique twist on an existing one.
+- Educational Purpose: It must teach or demonstrate a learning concept clearly.
+- Time Limit: You will have 4–6 hours on event day to build or present the toy (prototype/demo model).
+- Presentation Time: Each team will get 5–7 minutes to demonstrate how the toy works and what it teaches.
+- Materials: Participants should bring their own materials (organizers may provide basic craft supplies upon request).
+- Disqualification: Any pre-made toys purchased from stores will lead to disqualification.
+
+📄 Documentation  
+- Name of Toy
+- Purpose
+- Concept/Working
+- Material List
+- Estimated Cost
+
+
+🚀 Event Title: "TechNova: Innovations for a Smarter Future"
+Theme: Tech Innovations for Society / Education / Environment / Healthcare / Everyday Life
+
+
+🧠 Objective
+Encourage students to design innovative, tech-based solutions that solve real-world problems using creativity, technical knowledge, and engineering skills.
+
+💡 Project Idea Scope
+Participants can present prototypes, models, apps, or devices based on (but not limited to) these domains:
+- Smart Education Tools (e.g., AI-based learning apps)
+- Environmental Tech (e.g., IoT for waste management)
+- Assistive Tech for differently-abled people
+- Smart Health Devices or Solutions
+- Agriculture Automation or Tools
+- Smart City / Home Automation
+- Drones, Robots, Embedded Systems, etc.
+
+🛠 Project Requirements
+- Must include working model or prototype (software or hardware).
+- Innovations must focus on real-world impact.
+- Participants can use Arduino, Raspberry Pi, AI/ML, Android apps, or web tools.
+- No plagiarism – must be your original or uniquely developed solution.
+
+📜 Rules and Guidelines
+- Team Size: Individual or team of max 4 members.
+- Time Limit:
+  • 6 hours for setup, integration, and testing (if building on-site).
+  • 7 minutes for final presentation + demo (3 minutes Q&A).
+- Pre-prepared projects allowed, but you must explain its development process.
+- Participants must bring their own laptops, chargers, boards, sensors, etc.
+- Only basic resources (like tables, extension cords) will be provided.
+- Projects using AI tools (e.g., ML models, Chatbots) are welcome.
+- Dangerous tools or hazardous materials are strictly prohibited.
+
+🧾  Documentation
+Each team should submit a Tech Summary Sheet that includes:
+- Project Title
+- Problem Statement
+- Solution & How it Works
+- Technologies Used
+- Future Scope
+- Team Members and College
+- Estimated Cost
+
+ 
+
+
+🌍 Event Title: “O3 Shield: Innovation to Protect the Ozone”
+Theme: Protecting the Ozone Layer by Reducing CFCs and Promoting Eco-Tech
+
+🧠 Objective
+Encourage students to design solutions, campaigns, or technologies that help reduce the emission of CFCs and other ozone-depleting substances — through innovation, awareness, or alternative technologies.
+
+⚠ Why It Matters:
+CFCs are harmful man-made chemicals used in refrigerators, air conditioners, aerosol sprays, and foams.
+When released, they break down the ozone (O₃) molecules in the stratosphere.
+Ozone layer protects us from harmful UV rays, which cause skin cancer, cataracts, crop damage, and marine ecosystem disruption.
+
+💡 Project Ideas & Topics
+Participants can work on models, campaigns, innovations, or digital tools related to:
+- Eco-friendly Refrigeration & Cooling Technologies
+- Awareness Campaign on CFC Impact
+- Apps or Games to Educate about Ozone Protection
+- Ozone Impact Sensors / Data Collection Tools
+- Green Chemistry Solutions (CFC-free alternatives)
+- Miniature Models Showing Ozone Damage & Repair
+- DIY Air Purifier Without Harmful Gases
+- IoT-based Smart Sprayer that avoids aerosols
+
+📝 General Instructions
+Age Group: School (10–15) and College (15–22) with separate categories.
+Team Size: Individual or Max 4 per team.
+Submission Types Allowed:
+- Working Model
+- Awareness Poster/Board Game/App
+- Campaign Plan or Simulation
+- Science Model + Explanation Sheet
+Working Time: 4–6 hours onsite / or bring completed project.
+
+🔧 Rules & Guidelines
+- Project must relate to CFC reduction or ozone protection.
+- Can be a tech project, model, awareness tool, or sustainable invention.
+- Must be safe and environmentally friendly (no actual use of gases).
+- Must be participant's own work — plagiarism leads to disqualification.
+- Must clearly demonstrate the problem and your solution.
+- Presentation time: 5–7 minutes including demo + Q&A.
+
+📄 Documentation is optional but encouraged for higher marks:
+- Title
+- Problem & Solution
+- Materials Used
+- Learning Outcome
+- Team Details
+ 
+
+✅ How You Can Protect Ozone (Inspiration for Projects)
+- Use natural refrigerants instead of CFCs (like propane, ammonia, CO₂)
+- Promote aerosol-free lifestyle
+- Create apps or games for ozone education
+- Design sensor devices to detect air quality or harmful emissions
+- Build solar-powered appliances that don't emit CFCs
+
+📌 Additional Notes
+- Encourage use of recycled or non-plastic materials in the model.
+- Projects with social impact or awareness outreach get bonus points.
+- Certificates for all, special awards for best eco-tech solution.

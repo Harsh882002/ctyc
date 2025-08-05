@@ -27,7 +27,7 @@ const Contact = () => {
               Call Us
             </h4>
             <p style={{ color: "#718096", marginBottom: "0.5rem" }}>+91 8767665695</p>
-            <p style={{ color: "#718096", marginBottom: "0.5rem" }}>+91 9112383892</p>
+            <p style={{ color: "#718096", marginBottom: "0.5rem" }}>+91 9226983129</p>
             <p style={{ color: "#718096", marginBottom: "0.5rem" }}>Mon–Sat: 10AM–6PM</p>
           </div>
 

@@ -1,13 +1,14 @@
 const Timeline = () => {
   const events = [
     {
-      date: "August 16, 2025",
+      date: "August 10, 2025",
       title: "Registration Opens",
       description: "Start your journey by registering for the challenge",
     },
+     
     {
       date: "August 30, 2025 - 11:59 PM",
-      title: "Project Material Submission",
+      title: "Registration Close and Project Material Submission",
       description: "Project Material Submission like ppt,project video.",
     },
     {

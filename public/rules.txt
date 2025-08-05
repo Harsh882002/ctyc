@@ -37,7 +37,7 @@ To encourage creativity and innovation by designing toys that serve an education
 
 
 🚀 Event Title: "TechNova: Innovations for a Smarter Future"
-Theme: Tech Innovations for Society / Education / Environment / Healthcare / Everyday Life
+Theme: Tech Innovations for Society 
 
 
 🧠 Objective
@@ -46,12 +46,7 @@ Encourage students to design innovative, tech-based solutions that solve real-wo
 💡 Project Idea Scope
 Participants can present prototypes, models, apps, or devices based on (but not limited to) these domains:
 - Smart Education Tools (e.g., AI-based learning apps)
-- Environmental Tech (e.g., IoT for waste management)
-- Assistive Tech for differently-abled people
-- Smart Health Devices or Solutions
-- Agriculture Automation or Tools
-- Smart City / Home Automation
-- Drones, Robots, Embedded Systems, etc.
+
 
 🛠 Project Requirements
 - Must include working model or prototype (software or hardware).

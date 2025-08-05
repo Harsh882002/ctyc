@@ -18,7 +18,7 @@ const Competition = () => {
 
   const categories = [
     {
-      title: "Tech Innovation",
+      title: "AI & APP Innovation",
       description: "Build the future with cutting-edge technology",
       icon: "💻",
       ageGroup: "15-22 years",
@@ -27,8 +27,8 @@ const Competition = () => {
       keyword: "TechNova",
     },
     {
-      title: "CFC MAking",
-      description: "Change the world, one project at a time",
+      title: "O3 Shield",
+      description: "O3 Shield: Innovation to Protect the Ozone",
       icon: "🌍",
       ageGroup: "10-22 years",
       color: "var(--gradient-2)",
@@ -45,9 +45,9 @@ const Competition = () => {
       keyword: "EduToys",
     },
     {
-      title: "3D Printing",
-      description: "Save the planet with innovative ideas",
-      icon: "🖨️",
+      title: "3D Modeling & AR-VR",
+      description: "Embrace the world with your Innovative Idea",
+      icon: "🤖",
       ageGroup: "10-22 years",
       color: "var(--gradient-2)",
       emoji: "🌿",

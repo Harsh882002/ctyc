@@ -9,13 +9,13 @@ const Prizes = () => {
           position: "1st Place",
           amount: "₹3,000",
           icon: "🥇",
-          benefits: ["Cash Prize","Trophy", "Certificate",],
+          benefits: ["Cash Prize", "Trophy", "Certificate",],
         },
         {
           position: "2nd Place",
-          amount: "₹1,000",
+          amount: "₹2,000",
           icon: "🥈",
-          benefits: ["Cash Prize","Trophy", "Certificate"],
+          benefits: ["Cash Prize", "Trophy", "Certificate"],
         },
       ],
     },
@@ -32,7 +32,7 @@ const Prizes = () => {
           position: "2nd Place",
           amount: "₹3,000",
           icon: "🥈",
-          benefits: ["Cash Prize", "Mentorship Program","Internship Opportunity", "Certificate"],
+          benefits: ["Cash Prize", "Mentorship Program", "Internship Opportunity", "Certificate"],
         },
       ],
     },
@@ -98,15 +98,6 @@ const Prizes = () => {
             </div>
           </div>
         ))}
-
-        <div style={{ textAlign: "center", background: "#f7fafc", padding: "2rem", borderRadius: "12px" }}>
-          <h3 style={{ fontSize: "2.5rem", fontWeight: "800", color: "#2d3748", marginBottom: "1rem" }}>
-            Total Prize Pool: ₹12,000
-          </h3>
-          <p style={{ fontSize: "1.1rem", color: "#718096" }}>
-            Plus certificates, and networking opportunities for all participants!
-          </p>
-        </div>
       </div>
     </section>
   );

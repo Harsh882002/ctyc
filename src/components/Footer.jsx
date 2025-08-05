@@ -44,7 +44,7 @@ const Footer = () => {
             {/* Rotary Logo & Name */}
             <div style={{ textAlign: "center" }}>
               <img
-                src="/logo/rotary.jpg"
+                src="/logo/rotary.png"
                 alt="Rotary Club Akola Logo"
                 style={{
                   height: "150px",

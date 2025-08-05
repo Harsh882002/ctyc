@@ -25,7 +25,7 @@ const Footer = () => {
               flexWrap: "wrap",
             }}
           >
-            {/* KITS Logo & Name */}
+            {/* KITS Logo & Name + Button */}
             <div style={{ textAlign: "center" }}>
               <img
                 src="/logo/kits.jpg"
@@ -39,6 +39,26 @@ const Footer = () => {
                 }}
               />
               <p style={{ fontWeight: "600", fontSize: "1.1rem", color: "#f7fafc" }}>KITS Akola</p>
+
+              {/* 👇 Added Button */}
+              <a
+                href="https://www.kitstechlearning.co.in" target="_blank"
+                style={{
+                  display: "inline-block",
+                  marginTop: "1rem",
+                  padding: "10px 20px",
+                  background: "#f56565",
+                  color: "#fff",
+                  fontWeight: "600",
+                  textDecoration: "none",
+                  borderRadius: "6px",
+                  fontFamily: "JetBrains Mono",
+                  letterSpacing: "1px",
+                  boxShadow: "0 0 10px #f56565",
+                }}
+              >
+                Know More About Kits
+              </a>
             </div>
 
             {/* Rotary Logo & Name */}
@@ -54,7 +74,9 @@ const Footer = () => {
                   padding: "4px",
                 }}
               />
-              <p style={{ fontWeight: "600", fontSize: "1.1rem", color: "#f7fafc" }}>Rotary Club of Akola East</p>
+              <p style={{ fontWeight: "600", fontSize: "1.1rem", color: "#f7fafc" }}>
+                Rotary Club of Akola East
+              </p>
             </div>
           </div>
         </div>

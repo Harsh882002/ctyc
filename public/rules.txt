@@ -15,16 +15,13 @@ To encourage creativity and innovation by designing toys that serve an education
   • Language learning flash toy
   • Historical timeline game
   • Environmental awareness board game
-- Toys can be:
-  • Manual (no electronics)
-  • Or Simple tech-enabled  
+ 
 - Use of recycled materials is encouraged 
 
 🧩 Rules
 - Originality: Toy must be your own idea or a unique twist on an existing one.
 - Educational Purpose: It must teach or demonstrate a learning concept clearly.
 - Time Limit: You will have 4–6 hours on event day to build or present the toy (prototype/demo model).
-- Presentation Time: Each team will get 5–7 minutes to demonstrate how the toy works and what it teaches.
 - Materials: Participants should bring their own materials (organizers may provide basic craft supplies upon request).
 - Disqualification: Any pre-made toys purchased from stores will lead to disqualification.
 
@@ -44,21 +41,20 @@ Theme: Tech Innovations for Society
 Encourage students to design innovative, tech-based solutions that solve real-world problems using creativity, technical knowledge, and engineering skills.
 
 💡 Project Idea Scope
-Participants can present prototypes, models, apps, or devices based on (but not limited to) these domains:
+Participants can present prototypes, apps based on  this domains:
 - Smart Education Tools (e.g., AI-based learning apps)
 
 
 🛠 Project Requirements
-- Must include working model or prototype (software or hardware).
+- Must include working model or prototype (software).
 - Innovations must focus on real-world impact.
-- Participants can use Arduino, Raspberry Pi, AI/ML, Android apps, or web tools.
+- Participants can use  AI/ML, Android apps, or web tools.
 - No plagiarism – must be your original or uniquely developed solution.
 
 📜 Rules and Guidelines
 - Team Size: Individual or team of max 4 members.
 - Time Limit:
   • 6 hours for setup, integration, and testing (if building on-site).
-  • 7 minutes for final presentation + demo (3 minutes Q&A).
 - Pre-prepared projects allowed, but you must explain its development process.
 - Participants must bring their own laptops, chargers, boards, sensors, etc.
 - Only basic resources (like tables, extension cords) will be provided.
@@ -79,13 +75,13 @@ Each team should submit a Tech Summary Sheet that includes:
 
 
 🌍 Event Title: “O3 Shield: Innovation to Protect the Ozone”
-Theme: Protecting the Ozone Layer by Reducing CFCs and Promoting Eco-Tech
+Theme: Protecting the Ozone Layer by Reducing CFCs(Chlorofluorocarbons) and Promoting Eco-Tech
 
 🧠 Objective
-Encourage students to design solutions, campaigns, or technologies that help reduce the emission of CFCs and other ozone-depleting substances — through innovation, awareness, or alternative technologies.
+Encourage students to design solutions, campaigns, or technologies that help reduce the emission of CFC(Chlorofluorocarbons) and other ozone-depleting substances — through innovation, awareness, or alternative technologies.
 
 ⚠ Why It Matters:
-CFCs are harmful man-made chemicals used in refrigerators, air conditioners, aerosol sprays, and foams.
+CFC(Chlorofluorocarbons) are harmful man-made chemicals used in refrigerators, air conditioners, aerosol sprays, and foams.
 When released, they break down the ozone (O₃) molecules in the stratosphere.
 Ozone layer protects us from harmful UV rays, which cause skin cancer, cataracts, crop damage, and marine ecosystem disruption.
 
@@ -101,7 +97,7 @@ Participants can work on models, campaigns, innovations, or digital tools relate
 - IoT-based Smart Sprayer that avoids aerosols
 
 📝 General Instructions
-Age Group: School (10–15) and College (15–22) with separate categories.
+Age Group: College (15–22) with separate categories.
 Team Size: Individual or Max 4 per team.
 Submission Types Allowed:
 - Working Model
@@ -116,7 +112,6 @@ Working Time: 4–6 hours onsite / or bring completed project.
 - Must be safe and environmentally friendly (no actual use of gases).
 - Must be participant's own work — plagiarism leads to disqualification.
 - Must clearly demonstrate the problem and your solution.
-- Presentation time: 5–7 minutes including demo + Q&A.
 
 📄 Documentation is optional but encouraged for higher marks:
 - Title
@@ -137,3 +132,108 @@ Working Time: 4–6 hours onsite / or bring completed project.
 - Encourage use of recycled or non-plastic materials in the model.
 - Projects with social impact or awareness outreach get bonus points.
 - Certificates for all, special awards for best eco-tech solution.
+
+
+
+
+
+
+
+🌍 Event Title: “O3 Shield(Civil Engineer): Building for a Better Ozone”
+
+🎯 Theme:
+Civil Engineering Approaches to Ozone Layer Protection through Sustainable Construction and Eco-Friendly Practices
+
+🧠 Objective
+Inspire civil engineering students to design sustainable infrastructure, materials, and construction practices that contribute to reducing CFC(Chlorofluorocarbons) emissions and protecting the ozone layer.
+
+⚠ Why It Matters
+Many traditional construction materials and practices indirectly contribute to ozone depletion.
+
+Foam insulation, certain paints, coatings, and refrigerant-based systems in buildings can release CFCs(Chlorofluorocarbons) or HCFCs(Hydrochlorofluorocarbons).
+
+The ozone layer shields us from UV radiation that harms humans, crops, and ecosystems.
+
+Civil engineers play a crucial role in shaping a greener built environment.
+
+💡 Project Ideas for Civil Engineers
+Participants can showcase models, concepts, or awareness strategies related to:
+
+Use of CFC-free insulation materials in building design
+
+Designing eco-friendly building layouts that reduce the need for air-conditioning
+
+Construction practices that minimize use of ozone-depleting materials
+
+Green building models using traditional and natural materials (like mud, bamboo, lime, etc.)
+
+Concept of ventilated buildings with natural airflow (passive cooling)
+
+Awareness campaigns on sustainable construction methods
+
+Model of a green neighborhood promoting ozone-safe materials
+
+Waste management strategies that reduce harmful emissions during demolition/construction
+
+Sustainable roofing and walling materials that lower heat absorption
+
+Role of urban greenery and landscaping in lowering temperature and cooling needs
+
+📝 General Instructions
+Eligibility: Open to Civil Engineering students only (Diploma / B.Tech / M.Tech)
+
+Team Size: Individual or up to 4 members per team
+
+Allowed Submissions:
+
+Physical Model or Structure
+
+Poster or Awareness Display
+
+Sustainable Material Sample Showcase
+
+Construction Plan / Design Layout with explanation
+
+Onsite Time Limit: 4–6 hours (or bring a completed project)
+
+🔧 Rules & Guidelines
+The project must clearly connect to ozone protection through civil engineering.
+
+Use of safe, non-hazardous, and eco-friendly materials only.
+
+All work must be original and prepared by the team (no plagiarism).
+
+The project should clearly demonstrate the problem and the proposed civil-based solution.
+
+Presentation Duration: 5–7 minutes (including Q&A)
+
+📄 Optional but Encouraged Documentation
+Project Title
+
+Problem Statement & Proposed Civil Solution
+
+Materials Used
+
+Benefits & Learning Outcome
+
+Team Details
+
+✅ Inspiration for Civil Projects
+Avoidance of CFC-emitting materials in construction
+
+Use of natural insulation and passive ventilation
+
+Reduction of concrete use by substituting with green materials
+
+Designing ozone-conscious buildings and communities
+
+Public awareness through construction-site posters or displays
+
+📌 Additional Notes
+Prefer use of recycled, natural, or locally sourced materials
+
+Models with social awareness impact will earn bonus points
+
+All participants receive certificates
+
+Awards for most innovative sustainable construction idea

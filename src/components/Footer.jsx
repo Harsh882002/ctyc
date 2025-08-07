@@ -77,6 +77,24 @@ const Footer = () => {
               <p style={{ fontWeight: "600", fontSize: "1.1rem", color: "#f7fafc" }}>
                 Rotary Club of Akola East
               </p>
+              <a
+                href="https://www.rotary.org" target="_blank"
+                style={{
+                  display: "inline-block",
+                  marginTop: "1rem",
+                  padding: "10px 20px",
+                  background: "#0311d8ff",
+                  color: "#fff",
+                  fontWeight: "600",
+                  textDecoration: "none",
+                  borderRadius: "6px",
+                  fontFamily: "JetBrains Mono",
+                  letterSpacing: "1px",
+                  boxShadow: "0 0 10px #211950ff",
+                }}
+              >
+                Know More About Rotary
+              </a>
             </div>
           </div>
         </div>

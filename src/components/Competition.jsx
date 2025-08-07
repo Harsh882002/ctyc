@@ -27,7 +27,7 @@ const Competition = () => {
       keyword: "TechNova",
     },
     {
-      title: "O3 Shield",
+      title: "O3 Shield:Technical",
       description: "O3 Shield: Innovation to Protect the Ozone",
       icon: "🌍",
       ageGroup: "10-22 years",
@@ -52,7 +52,17 @@ const Competition = () => {
       color: "var(--gradient-2)",
       emoji: "🌿",
       keyword: "",
-    }
+    },
+    {
+      title: "O3 Shield:Civil Engineer",
+      description: "O3 Shield: Innovation to Protect the Ozone",
+      icon: "🌍",
+      ageGroup: "15-22 years",
+      color: "var(--gradient-2)",
+      emoji: "💝",
+      keyword: "O3 Shield(Civil Engineer)",
+    },
+    
   ]
 
   return (

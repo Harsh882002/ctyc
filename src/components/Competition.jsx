@@ -54,7 +54,7 @@ const Competition = () => {
       keyword: "",
     },
     {
-      title: "O3 Shield:Civil Engineer",
+      title: "O3 Shield:Civil/Architecture",
       description: "O3 Shield: Innovation to Protect the Ozone",
       icon: "🌍",
       ageGroup: "15-22 years",

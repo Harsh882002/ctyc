@@ -12,7 +12,7 @@ const Competition = () => {
   }, [])
 
   const getRuleByKeyword = (keyword) => {
-    const sections = rulesText.split(/🎨|🚀|🌍|✨|🌿/).filter((s) => s.trim() !== "")
+    const sections = rulesText.split(/🎨|🚀|🌍|✨|🌿|🌐/).filter((s) => s.trim() !== "")
     return sections.find((s) => s.includes(keyword))?.trim() || "Rule not found."
   }
 
@@ -51,7 +51,7 @@ const Competition = () => {
       ageGroup: "10-22 years",
       color: "var(--gradient-2)",
       emoji: "🌿",
-      keyword: "",
+      keyword: "3D Modeling & AR-VR",
     },
     {
       title: "O3 Shield:Civil/Architecture",
@@ -63,15 +63,15 @@ const Competition = () => {
       keyword: "O3 Shield(Civil Engineer)",
     },
     {
-    title: "Open Innovation",
-    description: "Got a fresh idea? We welcome all other innovative projects beyond listed categories.",
-    icon: "💡",
-    ageGroup: "10-22 years",
-    color: "var(--gradient-1)",
-    emoji: "🌟",
-    // keyword: "Others",
-  },
-    
+      title: "Open Innovation",
+      description: "Got a fresh idea? We welcome all other innovative projects beyond listed categories.",
+      icon: "💡",
+      ageGroup: "10-22 years",
+      color: "var(--gradient-1)",
+      emoji: "🌟",
+      // keyword: "Others",
+    },
+
   ]
 
   return (
@@ -227,9 +227,9 @@ const Competition = () => {
             }}
           >
             {[{ title: "ELIGIBILITY", desc: "Students aged 10-22 years", emoji: "🎯" },
-              { title: "TEAM SIZE", desc: "Solo or squad up to 4 members + Teacher", emoji: "👥" },
-              { title: "SUBMISSION", desc: "Original work only, no copying!", emoji: "📝" },
-              { title: "JUDGING", desc: "Innovation + Impact + Execution", emoji: "⚖️" }
+            { title: "TEAM SIZE", desc: "Solo or squad up to 4 members + Teacher", emoji: "👥" },
+            { title: "SUBMISSION", desc: "Original work only, no copying!", emoji: "📝" },
+            { title: "JUDGING", desc: "Innovation + Impact + Execution", emoji: "⚖️" }
             ].map((rule, index) => (
               <div
                 key={index}

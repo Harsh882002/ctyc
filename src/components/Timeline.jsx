@@ -26,16 +26,16 @@ const Timeline = () => {
         { time: "4:00 PM - 6:00 PM", activity: "Award Ceremony & Closing" },
       ],
     },
-  ]
+  ];
 
   const venue = {
     name: "Prabhat Kids School",
     address: "Washim - Akola Rd, Akola, Hingna Mhaispur, Maharashtra 444001",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10559.416640618181!2d76.98293985060344!3d20.6566557456574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd7325d70f1974d%3A0x48a3e8f47d8cea59!2sPrabhat%20Kids%20School!5e0!3m2!1sen!2sin!4v1755594022010!5m2!1sen!2sin",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.3921216769563!2d76.98500419999999!3d20.6536201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd7325d70f1974d%3A0x48a3e8f47d8cea59!2sPrabhat%20Kids%20School!5e0!3m2!1sen!2sin!4v1755600601591!5m2!1sen!2sin",
     mapLink:
-      "https://www.google.com/maps/place/Prabhat+Kids+School/@20.6566557,76.9829399,15z/",
-  }
+      "https://maps.app.goo.gl/jhdM36FqaekaHgZd9?g_st=aw",
+  };
 
   return (
     <section
@@ -109,9 +109,15 @@ const Timeline = () => {
                   {event.description}
                 </p>
 
-                {/* Sub-events for Grand Finale */}
+                {/* Sub-events */}
                 {event.subEvents && (
-                  <ul style={{ marginTop: "1rem", paddingLeft: "1rem", textAlign: "left" }}>
+                  <ul
+                    style={{
+                      marginTop: "1rem",
+                      paddingLeft: "1rem",
+                      textAlign: "left",
+                    }}
+                  >
                     {event.subEvents.map((sub, i) => (
                       <li key={i} style={{ marginBottom: "0.5rem", fontSize: "1rem" }}>
                         <strong>{sub.time}:</strong> {sub.activity}
@@ -138,22 +144,32 @@ const Timeline = () => {
           <p style={{ fontSize: "1.1rem", marginBottom: "20px", opacity: 0.9 }}>
             📍 {venue.name}, {venue.address}
           </p>
+
+          {/* Responsive Google Maps iframe */}
           <div
             style={{
-              borderRadius: "12px",
+              position: "relative",
+              paddingBottom: "56.25%", // 16:9 aspect ratio
+              height: 0,
               overflow: "hidden",
+              borderRadius: "12px",
               boxShadow: "0 10px 20px rgba(0,0,0,0.3)",
             }}
           >
             <iframe
               src={venue.mapUrl}
-              width="100%"
-              height="400"
-              style={{ border: 0 }}
-              allowFullScreen=""
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+                border: 0,
+              }}
+              allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+            />
           </div>
 
           {/* View on Maps Button */}
@@ -182,7 +198,7 @@ const Timeline = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Timeline
+export default Timeline;

@@ -97,7 +97,7 @@ Participants can work on models, campaigns, innovations, or digital tools relate
 - IoT-based Smart Sprayer that avoids aerosols
 
 📝 General Instructions
-Age Group: College (15–22) with separate categories.
+Age Group: College (10–22) with separate categories.
 Team Size: Individual or Max 4 per team.
 Submission Types Allowed:
 - Working Model
@@ -237,3 +237,88 @@ Models with social awareness impact will earn bonus points
 All participants receive certificates
 
 Awards for most innovative sustainable construction idea
+
+
+
+
+
+
+
+
+
+
+
+
+🌐 Event Title: “3D Modeling & AR-VR”
+
+🎯 Theme: Creating immersive experiences using 3D modeling, AR (Augmented Reality), and VR (Virtual Reality) technologies
+
+🧠 Objective:
+Encourage participants to design interactive, innovative, and educational 3D or AR/VR experiences that solve real-world problems, showcase creativity, or enhance learning.
+
+💡 Project Ideas / Scope:
+Participants can work on:
+
+Educational AR/VR apps (e.g., history, science, or math visualizations)
+
+3D architectural models or product prototypes
+
+Virtual tours or immersive simulations
+
+Games or interactive storytelling experiences
+
+Tools for environmental awareness, training, or skill development
+
+📝 General Instructions:
+
+Eligibility: Open for all students 
+
+Team Size: Individual or maximum 4 members per team
+
+Submission Types:
+
+Working 3D models (software or prototype)
+
+AR/VR apps or simulations
+
+Interactive demos or videos explaining the concept
+
+Time Limit: 4–6 hours for onsite build/presentation, or bring a completed project
+
+🔧 Rules & Guidelines:
+
+Projects must be original and created by the participants
+
+Use safe and legal software or tools; no pirated or hazardous materials
+
+Clearly demonstrate the objective, concept, and working of the model/app
+
+Presentation duration: 5–7 minutes including Q&A
+
+Participants must bring their own laptops, headsets, or devices for AR/VR demos
+
+Team members should explain the development process if pre-prepared projects are used
+
+Any plagiarism or copied work will lead to disqualification
+
+📄 Optional Documentation (Encouraged):
+
+Project Title
+
+Problem Statement or Concept
+
+Solution / How it Works
+
+Tools & Technologies Used
+
+Team Members & College
+
+Estimated Cost (if applicable)
+
+✅ Additional Notes / Inspiration:
+
+Creativity, interactivity, and educational impact will earn bonus points
+
+Encourage use of open-source 3D/AR/VR platforms
+
+Certificates for all participants; awards for the most innovative and impactful projects

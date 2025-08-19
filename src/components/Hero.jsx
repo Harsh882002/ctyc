@@ -124,8 +124,8 @@ const Hero = () => {
           >
             {[
               { label: "PARTICIPANTS", value: "100+", gradient: "var(--gradient-1)" },
-              { label: "PRIZE POOL", value: "₹10k+", gradient: "var(--gradient-2)" },
-              { label: "CATEGORIES", value: "4", gradient: "var(--gradient-3)" },
+              { label: "PRIZE POOL", value: "₹1 Lakh", gradient: "var(--gradient-2)" },
+              { label: "CATEGORIES", value: "5", gradient: "var(--gradient-3)" },
             ].map((item, i) => (
               <div key={i} className="floating" style={{ textAlign: "center" }}>
                 <div

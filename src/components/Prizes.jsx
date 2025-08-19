@@ -43,7 +43,7 @@ const Prizes = () => {
       <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 20px" }}>
         <div style={{ textAlign: "center", marginBottom: "60px" }}>
           <h2 style={{ fontSize: "2.5rem", fontWeight: "700", color: "#2d3748", marginBottom: "16px" }}>
-            Prizes & Recognition
+            Prizes & Recognition  
           </h2>
           <p style={{ fontSize: "1.2rem", color: "#718096" }}>Celebrating Excellence and Innovation</p>
         </div>

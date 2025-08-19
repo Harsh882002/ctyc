@@ -21,7 +21,7 @@ const Competition = () => {
       title: "AI & APP Innovation",
       description: "Build the future with cutting-edge technology",
       icon: "💻",
-      ageGroup: "15-22 years",
+      ageGroup: "10-22 years",
       color: "var(--gradient-1)",
       emoji: "🚀",
       keyword: "TechNova",
@@ -39,7 +39,7 @@ const Competition = () => {
       title: "Toy Making",
       description: "Express your creativity in digital form",
       icon: "🧸",
-      ageGroup: "10-15 years",
+      ageGroup: "10-22 years",
       color: "var(--gradient-3)",
       emoji: "✨",
       keyword: "EduToys",
@@ -62,6 +62,15 @@ const Competition = () => {
       emoji: "💝",
       keyword: "O3 Shield(Civil Engineer)",
     },
+    {
+    title: "Open Innovation",
+    description: "Got a fresh idea? We welcome all other innovative projects beyond listed categories.",
+    icon: "💡",
+    ageGroup: "10-22 years",
+    color: "var(--gradient-1)",
+    emoji: "🌟",
+    // keyword: "Others",
+  },
     
   ]
 

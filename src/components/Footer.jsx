@@ -57,7 +57,7 @@ const Footer = () => {
                   boxShadow: "0 0 10px #f56565",
                 }}
               >
-                Know More About Kits
+                Know More About KITS
               </a>
             </div>
 

@@ -57,7 +57,7 @@ const Competition = () => {
       title: "O3 Shield:Civil/Architecture",
       description: "O3 Shield: Innovation to Protect the Ozone",
       icon: "🌍",
-      ageGroup: "15-22 years",
+      ageGroup: "10-22 years",
       color: "var(--gradient-2)",
       emoji: "💝",
       keyword: "O3 Shield(Civil Engineer)",

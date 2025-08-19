@@ -3,13 +3,47 @@ import React from "react";
 const Prizes = () => {
   const categories = [
     {
-      title: "Age Category 10–15 years",
+      title: "AI & App Innovation",
+      prizes: [
+        {
+          position: "1st Place",
+          amount: "₹5,000",
+          icon: "🥇",
+          benefits: ["Cash Prize", "Trophy", "Certificate"],
+        },
+        {
+          position: "2nd Place",
+          amount: "₹3,000",
+          icon: "🥈",
+          benefits: ["Cash Prize", "Trophy", "Certificate"],
+        },
+      ],
+    },
+    {
+      title: "O3 Shield: Technical",
+      prizes: [
+        {
+          position: "1st Place",
+          amount: "₹5,000",
+          icon: "🥇",
+          benefits: ["Cash Prize", "Trophy", "Certificate"],
+        },
+        {
+          position: "2nd Place",
+          amount: "₹3,000",
+          icon: "🥈",
+          benefits: ["Cash Prize", "Trophy", "Certificate"],
+        },
+      ],
+    },
+    {
+      title: "Toy Making",
       prizes: [
         {
           position: "1st Place",
           amount: "₹3,000",
           icon: "🥇",
-          benefits: ["Cash Prize", "Trophy", "Certificate",],
+          benefits: ["Cash Prize", "Trophy", "Certificate"],
         },
         {
           position: "2nd Place",
@@ -20,19 +54,53 @@ const Prizes = () => {
       ],
     },
     {
-      title: "Age Category 15–22 years",
+      title: "3D Modeling & AR-VR",
       prizes: [
         {
           position: "1st Place",
           amount: "₹5,000",
           icon: "🥇",
-          benefits: ["Cash Prize", "Mentorship Program", "Internship Opportunity", "Certificate"],
+          benefits: ["Cash Prize", "Trophy", "Certificate"],
         },
         {
           position: "2nd Place",
           amount: "₹3,000",
           icon: "🥈",
-          benefits: ["Cash Prize", "Mentorship Program", "Internship Opportunity", "Certificate"],
+          benefits: ["Cash Prize", "Trophy", "Certificate"],
+        },
+      ],
+    },
+    {
+      title: "O3 Shield: Civil / Architecture",
+      prizes: [
+        {
+          position: "1st Place",
+          amount: "₹5,000",
+          icon: "🥇",
+          benefits: ["Cash Prize", "Trophy", "Certificate"],
+        },
+        {
+          position: "2nd Place",
+          amount: "₹3,000",
+          icon: "🥈",
+          benefits: ["Cash Prize", "Trophy", "Certificate"],
+        },
+      ],
+    },
+    {
+      title: "Other Innovative Ideas",
+      prizes: [
+        {
+          position: "1st Place",
+          amount: "₹5,000",
+          icon: "🥇",
+          benefits: ["Cash Prize", "Trophy", "Certificate"],
+        },
+        {
+          position: "2nd Place",
+          amount: "₹3,000",
+          icon: "🥈",
+          benefits: ["Cash Prize", "Trophy", "Certificate"],
         },
       ],
     },
@@ -42,15 +110,31 @@ const Prizes = () => {
     <section id="prizes" style={{ padding: "100px 0", background: "white" }}>
       <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 20px" }}>
         <div style={{ textAlign: "center", marginBottom: "60px" }}>
-          <h2 style={{ fontSize: "2.5rem", fontWeight: "700", color: "#2d3748", marginBottom: "16px" }}>
-            Prizes & Recognition  
+          <h2
+            style={{
+              fontSize: "2.5rem",
+              fontWeight: "700",
+              color: "#2d3748",
+              marginBottom: "16px",
+            }}
+          >
+            Prizes & Recognition
           </h2>
-          <p style={{ fontSize: "1.2rem", color: "#718096" }}>Celebrating Excellence and Innovation</p>
+          <p style={{ fontSize: "1.2rem", color: "#718096" }}>
+            Celebrating Excellence and Innovation
+          </p>
         </div>
 
         {categories.map((category, catIndex) => (
           <div key={catIndex} style={{ marginBottom: "4rem" }}>
-            <h3 style={{ fontSize: "1.8rem", fontWeight: "600", color: "#2d3748", marginBottom: "1.5rem" }}>
+            <h3
+              style={{
+                fontSize: "1.8rem",
+                fontWeight: "600",
+                color: "#2d3748",
+                marginBottom: "1.5rem",
+              }}
+            >
               {category.title}
             </h3>
             <div
@@ -74,8 +158,18 @@ const Prizes = () => {
                     transform: index === 0 ? "scale(1.05)" : "scale(1)",
                   }}
                 >
-                  <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>{prize.icon}</div>
-                  <h4 style={{ fontSize: "1.3rem", fontWeight: "700", color: "#2d3748" }}>{prize.position}</h4>
+                  <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>
+                    {prize.icon}
+                  </div>
+                  <h4
+                    style={{
+                      fontSize: "1.3rem",
+                      fontWeight: "700",
+                      color: "#2d3748",
+                    }}
+                  >
+                    {prize.position}
+                  </h4>
                   <div
                     style={{
                       fontSize: "2rem",
@@ -88,7 +182,14 @@ const Prizes = () => {
                   </div>
                   <ul style={{ listStyle: "none", padding: 0 }}>
                     {prize.benefits.map((benefit, bidx) => (
-                      <li key={bidx} style={{ padding: "0.3rem 0", color: "#4a5568", fontWeight: "500" }}>
+                      <li
+                        key={bidx}
+                        style={{
+                          padding: "0.3rem 0",
+                          color: "#4a5568",
+                          fontWeight: "500",
+                        }}
+                      >
                         ✓ {benefit}
                       </li>
                     ))}

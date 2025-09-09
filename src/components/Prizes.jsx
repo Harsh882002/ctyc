@@ -20,7 +20,7 @@ const Prizes = () => {
       ],
     },
     {
-      title: "O3 Shield: Technical",
+      title: "O3 Shield: Technical / Civil",
       prizes: [
         {
           position: "1st Place",
@@ -37,7 +37,7 @@ const Prizes = () => {
       ],
     },
     {
-      title: "Toy Making",
+      title: "Toy Making / 3D Modeling & AR-VR",
       prizes: [
         {
           position: "1st Place",
@@ -53,41 +53,7 @@ const Prizes = () => {
         },
       ],
     },
-    {
-      title: "3D Modeling & AR-VR",
-      prizes: [
         {
-          position: "1st Place",
-          amount: "₹5,000",
-          icon: "🥇",
-          benefits: ["Cash Prize", "Trophy", "Certificate"],
-        },
-        {
-          position: "2nd Place",
-          amount: "₹3,000",
-          icon: "🥈",
-          benefits: ["Cash Prize", "Trophy", "Certificate"],
-        },
-      ],
-    },
-    {
-      title: "O3 Shield: Civil / Architecture",
-      prizes: [
-        {
-          position: "1st Place",
-          amount: "₹5,000",
-          icon: "🥇",
-          benefits: ["Cash Prize", "Trophy", "Certificate"],
-        },
-        {
-          position: "2nd Place",
-          amount: "₹3,000",
-          icon: "🥈",
-          benefits: ["Cash Prize", "Trophy", "Certificate"],
-        },
-      ],
-    },
-    {
       title: "Other Innovative Ideas",
       prizes: [
         {

@@ -10,6 +10,7 @@ import FullGallery from "./components/FullGallery"
 import Contact from "./components/Contact"
 import Sponsers from "./components/Sponsers"
 import Footer from "./components/Footer"
+import Popup from "./components/Popup"
 import "./App.css"
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
 
   return (
     <div className="App">
+      <Popup />
       <Header setView={setCurrentView} currentView={currentView} />
 
       {currentView === 'home' ? (

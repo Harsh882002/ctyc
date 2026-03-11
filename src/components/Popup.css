@@ -1,0 +1,230 @@
+.popup-overlay {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(15, 23, 42, 0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  z-index: 100000; /* Extremely high to overtop everything */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  animation: fadeIn 0.4s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.popup-content {
+  background: rgba(255, 255, 255, 0.95);
+  width: 100%;
+  max-width: 850px;
+  border-radius: 32px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 40px 100px -20px rgba(0, 0, 0, 0.3);
+  animation: popIn 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+@keyframes popIn {
+  from { 
+    opacity: 0;
+    transform: scale(0.8) translateY(20px);
+  }
+  to { 
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.popup-inner {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  height: 100%;
+  min-height: 500px;
+}
+
+.popup-visual {
+  position: relative;
+  overflow: hidden;
+}
+
+.popup-visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 8s ease;
+}
+
+.popup-content:hover .popup-visual img {
+  transform: scale(1.15);
+}
+
+.visual-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(0,0,0,0.1), transparent);
+}
+
+.popup-tag {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  background: var(--color-blue);
+  color: white;
+  padding: 0.6rem 1.4rem;
+  border-radius: 99px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  box-shadow: 0 10px 20px rgba(37, 99, 235, 0.3);
+}
+
+.popup-body {
+  padding: 4rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+}
+
+.popup-subtitle {
+  color: var(--color-blue);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.8rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.popup-title {
+  font-size: 2.8rem;
+  line-height: 1.1;
+  color: var(--color-navy);
+  margin-bottom: 1.5rem;
+  font-weight: 900;
+}
+
+.popup-description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin-bottom: 2.5rem;
+}
+
+.btn-popup-primary {
+  background: var(--color-navy);
+  color: white;
+  border: none;
+  padding: 1.2rem 2.4rem;
+  border-radius: 16px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 15px 30px rgba(15, 23, 42, 0.15);
+}
+
+.btn-popup-primary:hover {
+  background: var(--color-blue);
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(37, 99, 235, 0.25);
+}
+
+.popup-close-btn {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-navy);
+  cursor: pointer;
+  z-index: 100;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(4px);
+}
+
+.popup-close-btn:hover {
+  background: white;
+  color: var(--color-blue);
+  transform: rotate(90deg) scale(1.1);
+}
+
+@media (max-width: 900px) {
+  .popup-content {
+    max-width: 480px;
+    border-radius: 24px;
+  }
+  
+  .popup-inner {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+  
+  .popup-visual {
+    height: 160px;
+  }
+  
+  .popup-body {
+    padding: 2rem 1.5rem;
+    text-align: center;
+  }
+  
+  .popup-title {
+    font-size: 1.85rem;
+  }
+
+  .popup-description {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .popup-tag {
+    top: 1rem;
+    left: 1rem;
+    padding: 0.4rem 1rem;
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .popup-overlay {
+    padding: 1rem;
+  }
+
+  .popup-content {
+    border-radius: 20px;
+  }
+
+  .popup-title {
+    font-size: 1.6rem;
+  }
+
+  .btn-popup-primary {
+    padding: 1rem 1.8rem;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .popup-close-btn {
+    top: 0.75rem;
+    right: 0.75rem;
+    width: 36px;
+    height: 36px;
+  }
+}

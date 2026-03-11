@@ -27,7 +27,7 @@ const About = () => {
           </div>
           <div className="about-img reveal" style={{ transitionDelay: '0.2s' }}>
             <div className="img-container">
-              <img src="/public/gallery/ev6.png" alt="Innovation" />
+              <img src="gallery/ev6.png" alt="Innovation" />
             </div>
           </div>
         </div>

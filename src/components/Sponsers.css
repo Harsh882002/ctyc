@@ -1,0 +1,54 @@
+.sponsors-section {
+  padding: 4rem 0;
+  background: white;
+  border-top: var(--border-standard);
+}
+
+.sponsors-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.sponsors-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.sponsor-item {
+  text-align: center;
+  flex: 0 1 auto;
+  min-width: 150px;
+}
+
+.sponsor-label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 1rem;
+}
+
+.sponsor-logo {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+  transition: all 0.4s ease;
+  opacity: 1;
+}
+
+.sponsor-logo:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .sponsors-grid {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

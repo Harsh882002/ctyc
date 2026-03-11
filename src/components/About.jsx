@@ -1,91 +1,39 @@
-import "./About.css"; // Make sure this path is correct
+import "./About.css"
 
 const About = () => {
   return (
-    <section id="about" className="about">
-      <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 20px" }}>
-        <div style={{ textAlign: "center", marginBottom: "60px" }}>
-          <h2
-            style={{
-              fontSize: "2.5rem",
-              fontWeight: "700",
-              color: "#2d3748",
-              marginBottom: "16px",
-            }}
-          >
-            About the Challenge
-          </h2>
-          <p style={{ fontSize: "1.2rem", color: "#718096" }}>
-            Nurturing Innovation in Young Minds
-          </p>
-        </div>
-
-        <div className="about-content">
-          <div
-            className="about-image"
-            style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}
-          >
-            <img
-              src="/image.png"
-              alt="Students working on projects"
-              style={{ maxWidth: "100%", height: "auto", flex: "1 1 300px" }}
-            />
-            <img
-              src="/big.png" // Replace this with your image path
-              alt="Additional project showcase"
-              style={{ maxWidth: "100%", height: "auto", flex: "1 1 300px" }}
-            />
-          </div>
-
-          <div className="about-text">
-            <h3>What is Catch Them Young Challenge?</h3>
-            <p>
-              The Catch Them Young Challenge is an innovative competition
-              designed to identify, nurture, and celebrate the creative
-              potential of young minds. We believe that early exposure to
-              problem-solving, technology, and entrepreneurship can shape the
-              leaders of tomorrow.
+    <section id="about" className="section-padding">
+      <div className="container">
+        <div className="about-flex">
+          <div className="about-text reveal">
+            <span className="badge">Our Mission</span>
+            <h2 className="title-section">Where Learning Finds Direction.</h2>
+            <p className="about-para">
+              At KITS, we bridge the gap between classroom theory and industrial reality. 
+              Our ecosystem is built on the belief that transformation begins when 
+              curiosity is met with professional direction.
             </p>
-
-            <div className="features">
-              <div className="feature">
-                <div className="feature-icon">🎯</div>
-                <div>
-                  <h4>Mission-Driven</h4>
-                  <p>
-                    Empowering youth through hands-on learning and real-world
-                    problem solving
-                  </p>
-                </div>
-              </div>
-
-              <div className="feature">
-                <div className="feature-icon">🚀</div>
-                <div>
-                  <h4>Innovation Focus</h4>
-                  <p>
-                    Encouraging creative thinking and technological innovation
-                    among participants
-                  </p>
-                </div>
-              </div>
-
-              <div className="feature">
-                <div className="feature-icon">🤝</div>
-                <div>
-                  <h4>Community Impact</h4>
-                  <p>
-                    Building solutions that address real community challenges
-                    and needs
-                  </p>
-                </div>
-              </div>
+            
+            <ul className="mission-list">
+              <li>
+                <strong>Democratizing Tech:</strong> 
+                Free entry workshops ensuring no child is left behind.
+              </li>
+              <li>
+                <strong>Industrial Reality:</strong> 
+                Moving beyond simulation to real-world projects.
+              </li>
+            </ul>
+          </div>
+          <div className="about-img reveal" style={{ transitionDelay: '0.2s' }}>
+            <div className="img-container">
+              <img src="/image.png" alt="Innovation" />
             </div>
           </div>
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default About;
+export default About

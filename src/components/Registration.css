@@ -1,111 +1,77 @@
-.registration {
-  padding: 100px 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+.registration-box {
+  padding: 6rem 0;
+  background: var(--color-navy);
   color: white;
+  text-align: center;
+  border-radius: 20px;
+  margin: 4rem auto;
+  max-width: 1000px;
+  position: relative;
+  overflow: hidden;
 }
 
-.registration .section-header h2,
-.registration .section-header p {
-  color: white;
-}
-
-.registration-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  align-items: start;
-}
-
-.registration-info h3 {
-  font-size: 2rem;
-  font-weight: 700;
-  margin-bottom: 2rem;
-}
-
-.registration-info ul {
-  list-style: none;
-  padding: 0;
-  margin-bottom: 2rem;
-}
-
-.registration-info li {
-  padding: 0.75rem 0;
-  font-size: 1.1rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.registration-stats {
-  background: rgba(255, 255, 255, 0.1);
-  padding: 2rem;
-  border-radius: 12px;
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.registration-stats h4 {
-  font-size: 1.3rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-  color: #ffd700;
-}
-
-.registration-form {
-  background: rgba(255, 255, 255, 0.95);
-  padding: 2.5rem;
-  border-radius: 16px;
-  color: #2d3748;
-  backdrop-filter: blur(10px);
-}
-
-.form-group {
-  margin-bottom: 1.5rem;
-}
-
-.form-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-}
-
-.form-group label {
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: 600;
-  color: #2d3748;
-}
-
-.form-group input,
-.form-group select,
-.form-group textarea {
+.registration-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  padding: 0.75rem;
-  border: 2px solid #e2e8f0;
+  height: 100%;
+  background: radial-gradient(circle at 50% 50%, rgba(37, 99, 235, 0.2) 0%, transparent 70%);
+  z-index: 1;
+}
+
+.reg-content {
+  position: relative;
+  z-index: 10;
+  padding: 0 2rem;
+}
+
+.reg-title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.reg-sub {
+  font-size: 1.125rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 3rem;
+}
+
+.reg-cta-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.btn-reg {
+  background: var(--color-blue);
+  color: white;
+  padding: 1rem 3rem;
+  font-size: 1.25rem;
+  font-weight: 800;
   border-radius: 8px;
-  font-size: 1rem;
-  transition: border-color 0.3s ease;
+  text-decoration: none;
+  transition: var(--transition);
+  display: inline-block;
+  box-shadow: 0 10px 20px rgba(37, 99, 235, 0.3);
 }
 
-.form-group input:focus,
-.form-group select:focus,
-.form-group textarea:focus {
-  outline: none;
-  border-color: #667eea;
+.btn-reg:hover {
+  background: #3B82F6;
+  transform: translateY(-3px);
+  box-shadow: 0 15px 30px rgba(37, 99, 235, 0.4);
 }
 
-.form-group textarea {
-  resize: vertical;
-  min-height: 100px;
+.reg-deadline {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 @media (max-width: 768px) {
-  .registration-content {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-
-  .form-row {
-    grid-template-columns: 1fr;
-  }
+  .registration-box { margin: 2rem 1rem; padding: 4rem 0; }
 }

@@ -1,3 +1,5 @@
+import "./Timeline.css"
+
 const Timeline = () => {
   const events = [
     {
@@ -29,98 +31,38 @@ const Timeline = () => {
   ];
 
   const venue = {
-    name: "Prabhat Kids School",
-    address: "Washim - Akola Rd, Akola, Hingna Mhaispur, Maharashtra 444001",
+    name: "Shri R.L.T. College of Science",
+    address: "Civil Lines Road, Near New Radhakisan Plots, Civil Line, Akola - 444001, Maharashtra, India",
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.3921216769563!2d76.98500419999999!3d20.6536201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd7325d70f1974d%3A0x48a3e8f47d8cea59!2sPrabhat%20Kids%20School!5e0!3m2!1sen!2sin!4v1755600601591!5m2!1sen!2sin",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.1094269783043!2d77.00352737386594!3d20.70578059879612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd731e33f8850a1%3A0x82ffff94cde6585!2sR%20L%20T%20College%20of%20Science-%20Akola!5e0!3m2!1sen!2sin!4v1773139165118!5m2!1sen!2sin",
     mapLink:
-      "https://maps.app.goo.gl/jhdM36FqaekaHgZd9?g_st=aw",
+      "https://www.google.com/maps?q=Shri+R.L.T.+College+of+Science+Akola",
   };
 
   return (
-    <section
-      id="timeline"
-      style={{
-        padding: "100px 0",
-        background: "linear-gradient(135deg, #060709ff 0%, #391c55ff 100%)",
-        color: "white",
-      }}
-    >
-      <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 20px" }}>
-        {/* Header */}
-        <div style={{ textAlign: "center", marginBottom: "60px" }}>
-          <h2
-            style={{
-              fontSize: "2.5rem",
-              fontWeight: "700",
-              color: "white",
-              marginBottom: "16px",
-            }}
-          >
-            Event Timeline
-          </h2>
-          <p style={{ fontSize: "1.2rem", color: "white" }}>
-            Your journey to innovation starts here
-          </p>
-        </div>
+    <section id="timeline" className="timeline">
+      <div className="container">
+        {/* Timeline Events */}
 
         {/* Timeline Events */}
-        <div style={{ maxWidth: "800px", margin: "0 auto" }}>
+        <div className="timeline-items-wrapper">
           {events.map((event, index) => (
-            <div
-              key={index}
-              style={{
-                position: "relative",
-                marginBottom: "3rem",
-                display: "flex",
-                alignItems: "center",
-              }}
-            >
-              <div
-                style={{
-                  background: "rgba(255, 255, 255, 0.1)",
-                  padding: "2rem",
-                  borderRadius: "12px",
-                  width: "100%",
-                  backdropFilter: "blur(10px)",
-                  border: "1px solid rgba(255, 255, 255, 0.2)",
-                }}
-              >
-                <div
-                  style={{
-                    fontSize: "0.9rem",
-                    color: "#ffd700",
-                    fontWeight: "600",
-                    marginBottom: "0.5rem",
-                  }}
-                >
-                  {event.date}
+            <div key={index} className="timeline-item-modern">
+              <div className="timeline-content-card">
+                <div className="timeline-header-meta">
+                  <span className="timeline-date-stamp">{event.date}</span>
                 </div>
-                <h3
-                  style={{
-                    fontSize: "1.3rem",
-                    fontWeight: "600",
-                    marginBottom: "0.5rem",
-                  }}
-                >
-                  {event.title}
-                </h3>
-                <p style={{ opacity: 0.9, lineHeight: 1.6 }}>
+                <h3 className="timeline-item-title">{event.title}</h3>
+                <p className="timeline-item-description">
                   {event.description}
                 </p>
 
-                {/* Sub-events */}
                 {event.subEvents && (
-                  <ul
-                    style={{
-                      marginTop: "1rem",
-                      paddingLeft: "1rem",
-                      textAlign: "left",
-                    }}
-                  >
+                  <ul className="timeline-subevents">
                     {event.subEvents.map((sub, i) => (
-                      <li key={i} style={{ marginBottom: "0.5rem", fontSize: "1rem" }}>
-                        <strong>{sub.time}:</strong> {sub.activity}
+                      <li key={i}>
+                        <span className="subevent-time">{sub.time}</span>
+                        <span className="subevent-activity">{sub.activity}</span>
                       </li>
                     ))}
                   </ul>
@@ -130,67 +72,25 @@ const Timeline = () => {
           ))}
         </div>
 
-        {/* Venue Section */}
-        <div style={{ marginTop: "80px", textAlign: "center" }}>
-          <h2
-            style={{
-              fontSize: "2rem",
-              fontWeight: "700",
-              marginBottom: "16px",
-            }}
-          >
-            Venue Details
-          </h2>
-          <p style={{ fontSize: "1.1rem", marginBottom: "20px", opacity: 0.9 }}>
-            📍 {venue.name}, {venue.address}
-          </p>
-
-          {/* Responsive Google Maps iframe */}
-          <div
-            style={{
-              position: "relative",
-              paddingBottom: "56.25%", // 16:9 aspect ratio
-              height: 0,
-              overflow: "hidden",
-              borderRadius: "12px",
-              boxShadow: "0 10px 20px rgba(0,0,0,0.3)",
-            }}
-          >
+        <div className="venue-section">
+          <div className="map-container reveal">
             <iframe
               src={venue.mapUrl}
-              style={{
-                position: "absolute",
-                top: 0,
-                left: 0,
-                width: "100%",
-                height: "100%",
-                border: 0,
-              }}
-              allowFullScreen
+              width="100%"
+              height="350"
+              style={{ border: 0, borderRadius: "12px" }}
+              allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-            />
+              title="Venue Map"
+            ></iframe>
           </div>
-
-          {/* View on Maps Button */}
-          <div style={{ marginTop: "20px" }}>
+          <div className="venue-actions">
             <a
               href={venue.mapLink}
               target="_blank"
               rel="noopener noreferrer"
-              style={{
-                display: "inline-block",
-                padding: "12px 24px",
-                background: "#ffd700",
-                color: "#000",
-                fontWeight: "600",
-                borderRadius: "8px",
-                textDecoration: "none",
-                boxShadow: "0 4px 10px rgba(0,0,0,0.3)",
-                transition: "background 0.3s ease",
-              }}
-              onMouseOver={(e) => (e.currentTarget.style.background = "#ffcc00")}
-              onMouseOut={(e) => (e.currentTarget.style.background = "#ffd700")}
+              className="btn btn-primary"
             >
               View on Google Maps
             </a>

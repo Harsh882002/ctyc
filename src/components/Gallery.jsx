@@ -3,7 +3,7 @@ import "./Gallery.css"
 const Gallery = ({ setView }) => {
   const images = [
     { src: "/gallery/winner1.jpg", title: "2024 " },
-    { src: "/gallery/project1.jpg", title: "2024" },
+    { src: "/gallery/project2.jpg", title: "2024 " },
     { src: "/gallery/2.jfif", title: "2025" },
 
 

@@ -39,25 +39,25 @@ const Popup = () => {
               <line x1="6" y1="6" x2="18" y2="18"></line>
             </svg>
           </button>
-          
+
           <div className="popup-visual">
             <img src="/assets/phase_1.png" alt="Phase 1 - The Spark" />
             <div className="visual-overlay"></div>
             <div className="popup-tag">Live Now</div>
           </div>
-          
+
           <div className="popup-body">
             <div className="popup-header">
-              <span className="popup-subtitle">Phase 1: The Spark</span>
+              <span className="popup-subtitle"> The Spark</span>
               <h2 className="popup-title">Ignite Your Future.</h2>
             </div>
-            
+
             <p className="popup-description">
-              The CTYC 2026 journey has officially begun! Don't miss your chance 
-              to join Phase 1—our <strong>free-entry gateway</strong> into the world of 
+              The CTYC 2026 journey has officially begun! Don't miss your chance
+              to join our <strong>free-entry gateway</strong> into the world of
               innovation and technology.
             </p>
-            
+
             <div className="popup-footer">
               <button className="btn-popup-primary" onClick={handleRegister}>
                 Secure Your Spot
